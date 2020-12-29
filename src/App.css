@@ -44,7 +44,7 @@
   height: 250px;
   padding-top: 5em;
   text-align: center;
-  content: ('profilePic.png')
+  background-image: url(./images/profilePic.png);
 }
 
 .banner-text {
