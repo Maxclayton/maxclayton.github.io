@@ -3,7 +3,6 @@ import { Grid, Cell } from "react-mdl";
 import FadeIn from 'react-fade-in';
 import Typewriter from "typewriter-effect";
 
-
 class LandingPage extends Component {
   render() {
     return (
@@ -13,6 +12,7 @@ class LandingPage extends Component {
           <Cell col={12}></Cell>
           <FadeIn>
           <img
+            src="images/profilePic.png"
             alt="avatar"
             className="avatar-img"
           />
