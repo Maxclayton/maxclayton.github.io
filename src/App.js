@@ -3,10 +3,14 @@ import "./App.css";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 
+
 function App() {
   return (
+    
     <div className="demo-big-content">
       <Layout>
+        
+        
         <Header
           className="header-color"
           title={
@@ -23,6 +27,7 @@ function App() {
           </Navigation>
         </Header>
         <Drawer
+        
           title="Title"
           title={
             <Link style={{ textDecoration: "none", color: "black" }} to="/">
@@ -31,11 +36,15 @@ function App() {
           }
           scroll
         >
+     
           <Navigation>
+            
             <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
+            
           </Navigation>
+        
         </Drawer>
         <Content>
           <div className="page-content" />

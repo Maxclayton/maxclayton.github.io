@@ -2,14 +2,17 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import FadeIn from 'react-fade-in';
 import Typewriter from "typewriter-effect";
-import ProfilePic from "./images/profilePic.png";
+import ProfilePic from "./images/profile.png";
+
 
 class LandingPage extends Component {
   render() {
+    
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         
         <Grid className="landing-grid">
+        
           <Cell col={12}></Cell>
           <FadeIn>
           <img
@@ -33,6 +36,9 @@ class LandingPage extends Component {
                     .pauseFor(2000)
                     .deleteChars(9)
                     .typeString("sign")
+                    .pauseFor(2000)
+                    .deleteAll()
+                    .typeString("Mobile Development")
                     .pauseFor(2000)
                     .deleteAll()
                     .typeString("UX/UI")

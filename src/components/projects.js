@@ -35,248 +35,27 @@ class Projects extends Component {
                     "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
                 }}
               >
-                React Project #1
+                Portfolio Site
               </CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has b{" "}
+                This is my portfolio site built in React.  I used React Router and React MDL{" "}
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
-              </CardMenu>
-            </FadeIn>
-          </Card>
-          {/*Project 2*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <FadeIn>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-                }}
+                <a  
+                href="https://github.com/Maxclayton/maxclayton.github.io"
+                rel="noopener noreferrer"
+                target="_blank"
               >
-                React Project #2
-              </CardTitle>
-              <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has b{" "}
-              </CardText>
-              <CardActions border>
                 <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
+                </a>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share"></IconButton>
               </CardMenu>
             </FadeIn>
           </Card>
-          {/*Project 3*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <FadeIn>
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-                }}
-              >
-                React Project #3
-              </CardTitle>
-              <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has b{" "}
-              </CardText>
-              <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
-              </CardMenu>
-            </FadeIn>
-          </Card>
-        </div>
-      );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <div className="projects-grid">
-          {/*Project 1*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-              <FadeIn>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-              }}
-            >
-              React Project #1
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has b{" "}
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
-            </FadeIn>
-          </Card>
           {/*Project 2*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-              <FadeIn>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-              }}
-            >
-              React Project #2
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has b{" "}
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
-            </FadeIn>
-          </Card>
           {/*Project 3*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-          <FadeIn>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has b{" "}
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
-            </FadeIn>
-          </Card>
-        </div>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div className="projects-grid">
-          {/*Project 1*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-              <FadeIn>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-              }}
-            >
-              React Project #1
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has b{" "}
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
-            </FadeIn>
-          </Card>
-          {/*Project 2*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-              <FadeIn>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-              }}
-            >
-              React Project #2
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has b{" "}
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
-            </FadeIn>
-          </Card>
-          {/*Project 3*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-              <FadeIn>
-            <CardTitle
-              style={{
-                color: "#fff",
-                height: "176px",
-                background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has b{" "}
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share"></IconButton>
-            </CardMenu>
-            </FadeIn>
-          </Card>
         </div>
       );
     }
@@ -291,8 +70,7 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>Python</Tab>
-          <Tab>Design</Tab>
+          
         </Tabs>
 
         <Grid>

@@ -4,7 +4,7 @@ import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
 import FadeIn from "react-fade-in";
-import ProfilePic from "./images/profilePic.png"
+import ProfilePic from "./images/profile.png"
 
 class Resume extends Component {
   render() {
@@ -19,6 +19,7 @@ class Resume extends Component {
               <img
                 src={ProfilePic}
                 alt="avatar"
+                className="avatar-resume"
                 style={{ height: "250px" }}
               />
             </div>
