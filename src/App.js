@@ -9,7 +9,7 @@ function App() {
     
     <div className="demo-big-content">
       <Layout>
-        
+        <div className="rect"><p>Test</p></div>
         
         <Header
           
@@ -38,7 +38,7 @@ function App() {
           scroll
         >
      
-          <Navigation>
+          <Navigation >
             
             <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
