@@ -1,3 +1,5 @@
+
+  
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
@@ -17,9 +19,9 @@ class Resume extends Component {
        
             <div style={{ textAlign: "center" }}>
               <img
+              className="avatar-resume"
                 src={ProfilePic}
-                alt="avatar"
-                className="avatar-resume"
+                alt="avatar-resume"
                 style={{ height: "250px" }}
               />
             </div>
@@ -92,3 +94,5 @@ class Resume extends Component {
 }
 
 export default Resume;
+
+

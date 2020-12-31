@@ -21,6 +21,10 @@
   height: 100%;
   width: 100%;
 
+  padding: 0px !important;
+  flex-flow: column wrap !important;
+  margin: 0 !important;
+  align-items: center !important;
 
 }
 
@@ -30,7 +34,7 @@ body {
 }
 
 .avatar-img {
-  height: 400px;
+  height: 250px;
   padding-top: 5em;
   text-align: center;
 }
@@ -106,6 +110,7 @@ body {
 
 .contact-grid p {
   font-family: "Montserrat", sans-serif;
+  width: 80%;
 }
 
 .contact-grid hr {
@@ -158,20 +163,18 @@ body {
     margin: 0px;
     width: 100%;
   }
+  .contact-avatar {
+    padding-top: 80px;
+  };
+
 
 
 }
-.Typewriter__cursor {
-  color: black;
+.Typewriter__cursor.Typewriter__cursor {
+  margin-left: 15px;
 }
 
 
-.mdl-grid.mdl-grid {
-  padding: 0px;
-  flex-flow: column wrap;
-  margin: 0;
-  align-items: center;
-}
 
 .mdl-layout__header-row {
   background-color: black;
@@ -182,5 +185,14 @@ body {
   margin: 4px;
   padding: 7px;
 }
+
+.contact-grid p{
+  padding: 0px;
+  flex-flow: column wrap;
+  margin: 0;
+  align-items: center;
+  width: 100%;
+}
+
 
 

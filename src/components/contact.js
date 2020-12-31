@@ -7,39 +7,27 @@ class Contact extends Component {
         return (
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={6}>
+                    <Cell col={4}>
                         <FadeIn>
-                        <h2>Max Clayton</h2>
+                    
                         <img
+                            className={"contact-avatar"}
                             src={ProfilePic}
                             style={{ height: '250px' }}
                             
                         />
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>blah blah orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                        
+                                     
+                                      <p style={{ fontSize: '20px', fontFamily: 'Montserrat', paddingTop: '30px', paddingBottom: '15px' }}>
+                                    maxclayton07@gmail.com
+                                    </p>
+                               
+                                
+                                <i className="fa fa-paper-plane" aria-hidden="true" style={{ fontSize: '30px'}}/>
                         </FadeIn>
                          </Cell>
-                    <Cell col={6}>
-                        <FadeIn>
-                        <h2>Contact Me</h2>
-                        <hr />
-                        
-
-                        <div className="contact-list">
-
-                            <List>
-                            
-                                <ListItem>
-                                    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Montserrat' }}>
-                                        <i className="fa fa-paper-plane" aria-hidden="true" />
-                                    maxclayton07@gmail.com
-                                </ListItemContent>
-
-                                </ListItem>
-                            </List>
-                            
-                        </div>
-                        </FadeIn>
-                    </Cell>
+                 
                 </Grid></div>
         )
     }

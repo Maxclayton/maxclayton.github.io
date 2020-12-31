@@ -12,6 +12,7 @@ function App() {
         
         
         <Header
+          
           className="header-color"
           title={
             <Link style={{ textDecoration: "none", color: "white" }} to="/">
