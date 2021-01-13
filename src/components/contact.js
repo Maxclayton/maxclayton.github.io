@@ -9,22 +9,22 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={4}>
             <FadeIn>
+            <div className="contact-content">
               <img
                 className={"contact-avatar"}
                 src={ProfilePic}
                 style={{ height: "250px" }}
               />
-              <div className="contact-content">
+              
               <p style={{ width: "80%", paddingTop: "1em" }}>
-                blah blah orem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries,
+                I am a web developer with a passion for design.
+                I pride myself in keeping clean and organized code.
+                I am eager to learn, and feel confident I can solve any
+                problem thrown my way.
              
               
                 
-              </p>{" "}</div>
+              </p>{" "}
               <p style={{fontSize: "25px"}}>Let's chat </p>
               <div className="email-contact">
               <h1 >
@@ -40,7 +40,8 @@ class Contact extends Component {
                 style={{ fontSize: "30px", paddingTop: "20px", padingBottom: "25px", marginLeft: "0px"}}
               />
               </div>
-              
+              </div>
+           
             </FadeIn>
           </Cell>
         </Grid>

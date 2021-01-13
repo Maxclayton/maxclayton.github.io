@@ -27,6 +27,7 @@ class Projects extends Component {
           {/*Project 1*/}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <FadeIn>
+             
               <CardTitle
                 style={{
                   color: "#fff",
@@ -52,10 +53,12 @@ class Projects extends Component {
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share"></IconButton>
               </CardMenu>
+              
             </FadeIn>
           </Card>
           {/*Project 2*/}
           {/*Project 3*/}
+          
         </div>
       );
     }
