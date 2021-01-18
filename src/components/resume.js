@@ -28,17 +28,17 @@ class Resume extends Component {
 
             <h2 style={{ paddingTop: "2em" }}>Max Clayton</h2>
             <h4 style={{ color: "grey" }}>Programmer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #2c5364", width: "50%" }} />
             <p style={{width: "20em"}}>
               I am currently going to school for my Bachelor's degree in Web Design and Development.
               I am on track to graduate in the Spring of 2022.  {" "}
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #2c5364", width: "50%" }} />
             <h5>Email</h5>
             <p>maxclayton07@gmail.com</p>
             <h5>Web</h5>
             <p>maxclayton.github.io</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "3px solid #2c5364", width: "50%" }} />
             </FadeIn>
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -77,9 +77,10 @@ class Resume extends Component {
               jobDescription="As a Technical Support Specialist I have many responsabilites.  I help callfloor reps when they are having technical difficulties, I also create and manage forms through
               Wordpress and make Javascript automation scripts to help our team complete tasks quicker."
             />
-            <hr style={{ bordertop: "3px solid #e22947" }} />
+            <hr style={{ bordertop: "3px solid #2c5364" }} />
             <h2>Skills</h2>
             <Skills skill="React" progress={90} />
+            <Skills skill="Javascript" progress={80} />
             <Skills skill="HTML/CSS" progress={90} />
             <Skills skill="Wordpress" progress={75} />
             <Skills skill="Python" progress={50} />

@@ -180,6 +180,11 @@ body {
     
   }
 
+  .contact-content.contact-content {
+    height: 645px;
+    margin-right: 21px;
+  }
+
 }
 
 
