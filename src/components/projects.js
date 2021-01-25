@@ -56,6 +56,44 @@ class Projects extends Component {
               
             </FadeIn>
           </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <FadeIn>
+             {/*Project 2*/}
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
+                }}
+              >
+                Practice Site
+              </CardTitle>
+              <CardText>
+                This is a site I built to practice some website design and layout.  The particle background
+                is from react-particles-js.{" "}
+              </CardText>
+              <CardActions border>
+                <a  
+                href="https://github.com/Maxclayton/practice-blog"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>Github</Button>
+                </a>
+                <a
+                href="https://600f4dc13976f01b680ba3ec--romantic-easley-755782.netlify.app/"
+                rel="noopener noreferrer"
+                target="_blank">
+                <Button colored>Demo</Button>
+                </a>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share"></IconButton>
+              </CardMenu>
+              
+            </FadeIn>
+          </Card>
           {/*Project 2*/}
           {/*Project 3*/}
           
