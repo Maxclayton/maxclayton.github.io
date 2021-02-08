@@ -58,7 +58,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={"Current Day"}
               schoolName="Udemy"
-              schoolDescription="I have complete several Udemy Courses, including The Complete React Developer Course (w/Hooks and Redux), The Web Developer Bootcamp, Python 3: Project-based Python, Algorithms, Data Structures. "
+              schoolDescription="I have completed several Udemy Courses, including The Complete React Developer Course (w/Hooks and Redux), The Web Developer Bootcamp, Python 3: Project-based Python, Algorithms, Data Structures. "
             />
             <hr style={{ bordertop: "3px solid #e22947" }} />
             <h2>Experience</h2>
