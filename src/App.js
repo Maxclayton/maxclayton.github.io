@@ -1,10 +1,13 @@
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Header, Navigation, Drawer, Content, } from "react-mdl";
 import "./App.css";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 
 
+
 function App() {
+  
+
   return (
     
     <div className="demo-big-content">
@@ -22,9 +25,12 @@ function App() {
           scroll
         >
           <Navigation>
+            
+       
             <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/contact">Contact</Link>
+                    
           </Navigation>
         </Header>
         <Drawer
