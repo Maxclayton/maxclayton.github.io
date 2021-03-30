@@ -13,151 +13,136 @@ import {
   IconButton,
 } from "react-mdl";
 import FadeIn from "react-fade-in";
-import Particles from 'react-particles-js';
+import Zoom from "react-reveal/Zoom"
+import ResIcon from "./images/responsive-icon.png";
+import CakeDemo from "./images/cake-demo.gif";
+import BlogDemo from "./images/blog-demo.gif";
+import PortfolioDemo from "./images/portfolio-demo.gif"
 
 class Projects extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { activeTab: 0 };
-  }
-
-  toggleCategories() {
-    if (this.state.activeTab === 0) {
-      return (
-        <div className="projects-grid">
-          {/*Project 1*/}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <FadeIn>
-             
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
-                }}
-              >
-                Portfolio Site
-              </CardTitle>
-              <CardText>
-                This is my portfolio site built in React.  I used React Router and React MDL{" "}
-              </CardText>
-              <CardActions border>
-                <a  
-                href="https://github.com/Maxclayton/maxclayton.github.io"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>Github</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
-              </CardMenu>
-              
-            </FadeIn>
-          </Card>
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <FadeIn>
-             {/*Project 2*/}
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://codesandbox.io/api/v1/sandboxes/4x4lmpqz1w/screenshot.png",
-                }}
-              >
-                Practice Site
-              </CardTitle>
-              <CardText>
-                This is a site I built to practice some website design and layout.  The particle background
-                is from react-particles-js.{" "}
-              </CardText>
-              <CardActions border>
-                <a  
-                href="https://github.com/Maxclayton/practice-blog"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>Github</Button>
-                </a>
-                <a
-                href="https://600f4dc13976f01b680ba3ec--romantic-easley-755782.netlify.app/"
-                rel="noopener noreferrer"
-                target="_blank">
-                <Button colored>Demo</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
-              </CardMenu>
-              
-            </FadeIn>
-          </Card>
-           {/*Project 3*/}
-           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <FadeIn>
-             
-              <CardTitle
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://img.freepik.com/free-vector/birthday-cake-icon-with-candles_204219-39.jpg?size=338&ext=jpg) center / cover",
-                }}
-              >
-                Sydni's Cakes
-              </CardTitle>
-              <CardText>
-                This site was built in React.  The idea is that the user can see some examples of the cakes on the home page, and the "order now" button will lead them
-                to a page where they can fill out a form that will send an email to the person on the back end.  The site is mainly for mobile.{" "}
-              </CardText>
-              <CardActions border>
-                <a  
-                href="https://github.com/Maxclayton/cakes"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <Button colored>Github</Button>
-                </a>
-                <a
-                href="https://maxclayton.netlify.app/"
-                rel="noopener noreferrer"
-                target="_blank">
-                <Button colored>Demo</Button>
-                </a>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
-              </CardMenu>
-              
-            </FadeIn>
-          </Card>
-          {/*Project 3*/}
-          
-        </div>
-      );
-    }
-  }
-
   render() {
     return (
-      <div className="category-tabs">
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={(tabId) => this.setState({ activeTab: tabId })}
-          ripple
-        >
-          <Tab>React</Tab>
-          
-        </Tabs>
+      <div className="projects-holder">
+        <div className="project-title-page">
+          <div className="project-desc">
+            <FadeIn>
+              <h1>Projects</h1>
+              <p>
+                I try to make all of my projects responsive. Designing first for
+                mobile, then scaling up. Check out some of the things I've
+                worked on below.
+              </p>
+            </FadeIn>
+          </div>
+          <FadeIn>
+            <img
+              src={ResIcon}
+              style={{
+                height: "400px",
+                marginRight: "100px",
+                paddingTop: "175px",
+              }}
+            />
+          </FadeIn>
+        </div>
+        <div className="first-project">
+          <Zoom>
+          <div className="first-project-desc">
+            <img
+              src={CakeDemo}
+              style={{ height: "700px", marginRight: "100px" }}
+            />
+          </div>
+          <div className="first-proj-text">
+            <h1>Sydni's Cakes</h1>
+            <p>
+              This is a website for a local baker. The idea of the site is to
+              show off different cakes that the baker has made, as well as let
+              the user place an order. When the user gets to the "Order Now"
+              Page, there is a text box asking them for their first and last
+              name, email address, and a text box. The idea is that the user
+              will describe what kind of cake they want, and the baker will get
+              that in their email, and be able to respond. It even error catches
+              in case the user doesn't submit an actual email address.
+            </p>
+            <a
+              href="https://maxclayton.netlify.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button colored>Live Demo</Button>
+            </a>
+            <a
+              href="https://github.com/Maxclayton/cakes"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button colored>View Repository</Button>
+            </a>
+          </div>
+          </Zoom>
+        </div>
+                {/* Second Project */}
+        <div className="second-project-page">
+          <Zoom>
+          <div className="second-proj-text">
+            <h1>Demo Site</h1>
+            <p>
+              For this, I wanted to practice layouts as well as using the particle background.  The site does not do anything at the moment, but it does look pretty sweet.
+            </p>
+            <a
+              href="https://600f4dc13976f01b680ba3ec--romantic-easley-755782.netlify.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button colored>Live Demo</Button>
+            </a>
+            <a
+              href="https://github.com/Maxclayton/practice-blog"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button colored>View Repository</Button>
+            </a>
+            
+          </div>
+        
 
-        <Grid>
-          <Cell col={12}>
-            <div className="content">{this.toggleCategories()}</div>
-          </Cell>
-        </Grid>
+          <img
+            src={BlogDemo}
+            style={{
+              height: "300px",
+              marginRight: "80px",
+              paddingTop: "175px",
+            }}
+          />
+            </Zoom>
+        </div>
+        {/* third project page */}
+        <div className="third-project-page">
+          <Zoom>
+          <div className="third-project-desc">
+            <img
+              src={PortfolioDemo}
+              style={{ height: "300px", marginRight: "100px", paddingTop: "175px" }}
+            />
+          </div>
+          <div className="third-proj-text">
+            <h1>Portfolio</h1>
+            <p>
+              This portfolio site that you are currently on has lot of different parts to it as well.  Each page uses a different React library to show different things I am capable of.
+            </p>
+            <a
+              href="https://github.com/Maxclayton/maxclayton.github.io"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <Button colored>View Repository</Button>
+            </a>
+            
+          </div>
+          </Zoom>
+        </div>
       </div>
     );
   }
