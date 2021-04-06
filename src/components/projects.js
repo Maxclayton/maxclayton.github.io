@@ -14,7 +14,7 @@ import {
 } from "react-mdl";
 import FadeIn from "react-fade-in";
 import Zoom from "react-reveal/Zoom"
-import ResIcon from "./images/responsive-icon.png";
+import ResIcon from "./images/responsive-icon1.png";
 import CakeDemo from "./images/cake-demo.gif";
 import BlogDemo from "./images/blog-demo.gif";
 import PortfolioDemo from "./images/portfolio-demo.gif"
@@ -36,12 +36,9 @@ class Projects extends Component {
           </div>
           <FadeIn>
             <img
+            className="res-icon"
               src={ResIcon}
-              style={{
-                height: "400px",
-                marginRight: "100px",
-                paddingTop: "175px",
-              }}
+             
             />
           </FadeIn>
         </div>
@@ -49,13 +46,13 @@ class Projects extends Component {
           <Zoom>
           <div className="first-project-desc">
             <img
+              className="cake-demo"
               src={CakeDemo}
-              style={{ height: "700px", marginRight: "100px" }}
             />
           </div>
           <div className="first-proj-text">
             <h1>Sydni's Cakes</h1>
-            <p>
+            <p className="cakes-text">
               This is a website for a local baker. The idea of the site is to
               show off different cakes that the baker has made, as well as let
               the user place an order. When the user gets to the "Order Now"
@@ -107,15 +104,13 @@ class Projects extends Component {
             
           </div>
         
-
+          <div className="second-proj-demo">
           <img
+          className="demo-demo"
             src={BlogDemo}
-            style={{
-              height: "300px",
-              marginRight: "80px",
-              paddingTop: "175px",
-            }}
+
           />
+          </div>
             </Zoom>
         </div>
         {/* third project page */}
@@ -123,8 +118,8 @@ class Projects extends Component {
           <Zoom>
           <div className="third-project-desc">
             <img
+            className="third-proj-demo"
               src={PortfolioDemo}
-              style={{ height: "300px", marginRight: "100px", paddingTop: "175px" }}
             />
           </div>
           <div className="third-proj-text">

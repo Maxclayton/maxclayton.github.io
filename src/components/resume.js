@@ -50,7 +50,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2022}
               schoolName="UVU"
-              schoolDescription="I am currently attending Utah Valley University, where I am getting my major in Web Design/Development, and getting a minor in Computer Science.  I started
+              schoolDescription="I am currently attending Utah Valley University, where I am getting my major in Web Design/Development. I started
                             in the fall of 2018 and am on track to finish my bachelor's degree in the Spring of 2022.  "
             />
 

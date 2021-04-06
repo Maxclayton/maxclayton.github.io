@@ -15,7 +15,7 @@ import {
 import FadeIn from "react-fade-in";
 import Particles from 'react-particles-js';
 
-class Projects extends Component {
+class Articles extends Component {
   constructor(props) {
     super(props);
     this.state = { activeTab: 0 };
@@ -24,8 +24,10 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid">
+       
+          <div className="card-holder">
           {/*Project 1*/}
+          <div className="card-1">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <FadeIn>
              
@@ -33,69 +35,63 @@ class Projects extends Component {
                 style={{
                   color: "#fff",
                   height: "176px",
-                  background:
-                    "url(https://cdn.worldvectorlogo.com/logos/react-1.svg) center / cover",
+                  backgroundColor: "black",
                 }}
               >
-                Portfolio Site
+                Who Do You Love More? Smaller File Sizes or Higher Quality Images?
               </CardTitle>
               <CardText>
-                This is my portfolio site built in React.  I used React Router and React MDL{" "}
+                Here I talk about the difference between smaller file sizes and higher quality images.{" "}
               </CardText>
               <CardActions border>
                 <a  
-                href="https://github.com/Maxclayton/maxclayton.github.io"
+                href="https://maxclayton07.medium.com/the-difference-between-7mb-and-341-kb-cf0021f48067"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Button colored>Github</Button>
+                <Button colored>Read</Button>
                 </a>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
               </CardMenu>
               
             </FadeIn>
           </Card>
+          </div>
+          <div className="card-2">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            
             <FadeIn>
+              
              {/*Project 2*/}
               <CardTitle
                 style={{
-                  color: "#fff",
+                  color: "black",
                   height: "176px",
-                  background:
-                    "url(https://codesandbox.io/api/v1/sandboxes/4x4lmpqz1w/screenshot.png",
+                  backgroundColor:
+                    "white",
                 }}
               >
-                Practice Site
+                Creating my Portfolio
               </CardTitle>
               <CardText>
-                This is a site I built to practice some website design and layout.  The particle background
-                is from react-particles-js.{" "}
+                How I designed and created the Projects page on my Portfolio site.{" "}
               </CardText>
               <CardActions border>
                 <a  
-                href="https://github.com/Maxclayton/practice-blog"
+                href="https://maxclayton07.medium.com/creating-my-portfolio-189f28cc7d0b"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Button colored>Github</Button>
-                </a>
-                <a
-                href="https://600f4dc13976f01b680ba3ec--romantic-easley-755782.netlify.app/"
-                rel="noopener noreferrer"
-                target="_blank">
-                <Button colored>Demo</Button>
+                <Button colored>Read</Button>
                 </a>
               </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
-              </CardMenu>
               
             </FadeIn>
           </Card>
+          </div>
            {/*Project 3*/}
+           <div className="card-3">
            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <FadeIn>
              
@@ -103,37 +99,29 @@ class Projects extends Component {
                 style={{
                   color: "#fff",
                   height: "176px",
-                  background:
-                    "url(https://img.freepik.com/free-vector/birthday-cake-icon-with-candles_204219-39.jpg?size=338&ext=jpg) center / cover",
-                }}
+                  backgroundColor: "black"                }}
               >
-                Sydni's Cakes
+                Doctors Hate Him for these Three Simple Web Design Tricks
               </CardTitle>
               <CardText>
-                This site was built in React.  The idea is that the user can see some examples of the cakes on the home page, and the "order now" button will lead them
-                to a page where they can fill out a form that will send an email to the person on the back end.  The site is mainly for mobile.{" "}
+                Three simple ways to take your digital product to the next level.
+                {" "}
               </CardText>
               <CardActions border>
                 <a  
-                href="https://github.com/Maxclayton/cakes"
+                href="https://maxclayton07.medium.com/doctors-hate-him-for-these-three-simple-web-design-tricks-30aeed165eef"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Button colored>Github</Button>
-                </a>
-                <a
-                href="https://maxclayton.netlify.app/"
-                rel="noopener noreferrer"
-                target="_blank">
-                <Button colored>Demo</Button>
+                <Button colored>Read</Button>
                 </a>
               </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share"></IconButton>
-              </CardMenu>
               
             </FadeIn>
+            
           </Card>
+          </div>
+        
           {/*Project 3*/}
           
         </div>
@@ -144,17 +132,12 @@ class Projects extends Component {
   render() {
     return (
       <div className="category-tabs">
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={(tabId) => this.setState({ activeTab: tabId })}
-          ripple
-        >
-          <Tab>React</Tab>
-          
-        </Tabs>
+  
 
         <Grid>
           <Cell col={12}>
+            <h1 className="articles-text">What I've Learned</h1>
+            <p className="articles-text1">“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.” – Dr.  Seus</p>
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
         </Grid>
@@ -163,4 +146,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Articles;

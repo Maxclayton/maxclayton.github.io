@@ -29,6 +29,7 @@ function App() {
        
             <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
+            <Link to="/articles">What I've Learned</Link>
             <Link to="/contact">Contact</Link>
                     
           </Navigation>
@@ -46,8 +47,9 @@ function App() {
      
           <Navigation >
             
-            <Link to="/resume">Resume</Link>
+          <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
+            <Link to="/articles">What I've Learned</Link>
             <Link to="/contact">Contact</Link>
             
           </Navigation>
