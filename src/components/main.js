@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
 import LandingPage from './landingpage';
 import Contact from './contact';
@@ -8,8 +8,15 @@ import Resume from './resume';
 import Articles from './articles'
 
 
+
+
+
+
 const Main = () => (
+ 
     <Switch>
+        
+      
         <Route exact path="/" component={LandingPage} />
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />

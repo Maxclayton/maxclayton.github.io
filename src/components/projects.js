@@ -13,7 +13,7 @@ import {
   IconButton,
 } from "react-mdl";
 import FadeIn from "react-fade-in";
-import Zoom from "react-reveal/Zoom"
+import Zoom from "react-reveal/Zoom";
 import ResIcon from "./images/responsive-icon1.png";
 import CakeDemo from "./images/cake-demo.gif";
 import BlogDemo from "./images/blog-demo.gif";
@@ -43,6 +43,7 @@ class Projects extends Component {
           </FadeIn>
         </div>
         <div className="first-project">
+          
           <Zoom>
           <div className="first-project-desc">
             <img
@@ -62,6 +63,7 @@ class Projects extends Component {
               that in their email, and be able to respond. It even error catches
               in case the user doesn't submit an actual email address.
             </p>
+            <div className="links">
             <a
               href="https://maxclayton.netlify.app/"
               rel="noopener noreferrer"
@@ -76,8 +78,10 @@ class Projects extends Component {
             >
               <Button colored>View Repository</Button>
             </a>
+            </div>
           </div>
           </Zoom>
+          
         </div>
                 {/* Second Project */}
         <div className="second-project-page">

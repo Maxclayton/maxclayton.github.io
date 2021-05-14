@@ -24,6 +24,7 @@ class Articles extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
+        <div className="everything">
        
           <div className="card-holder">
           {/*Project 1*/}
@@ -121,9 +122,103 @@ class Articles extends Component {
             
           </Card>
           </div>
-        
-          {/*Project 3*/}
+          </div>
+          <div className="card-holder2">
+          <div className="card-4">
+           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <FadeIn>
+             
+              <CardTitle
+                style={{
+                  color: "black",
+                  height: "176px",
+                  backgroundColor: "white"                }}
+              >
+                HTML and CSS basics
+              </CardTitle>
+              <CardText>
+                What are HTML and CSS, and how you can learn them.
+                {" "}
+              </CardText>
+              <CardActions border>
+                <a  
+                href="https://maxclayton07.medium.com/nailing-the-basics-of-css-and-html-cd2d7fa5f3f3"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>Read</Button>
+                </a>
+              </CardActions>
+              
+            </FadeIn>
+            
+          </Card>
+          </div>
           
+          <div className="card-5">
+           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <FadeIn>
+             
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  backgroundColor: "black"                }}
+              >
+                Color Me Impressed
+              </CardTitle>
+              <CardText>
+                How important is color in digital products?
+                {" "}
+              </CardText>
+              <CardActions border>
+                <a  
+                href="https://maxclayton07.medium.com/color-me-impressed-133884ed8bd7"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>Read</Button>
+                </a>
+              </CardActions>
+              
+            </FadeIn>
+            
+          </Card>
+          </div>
+          <div className="card-6">
+           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <FadeIn>
+             
+              <CardTitle
+                style={{
+                  color: "black",
+                  height: "176px",
+                  backgroundColor: "white"                }}
+              >
+                Doctors Hate Him for these Three Simple Web Design Tricks
+              </CardTitle>
+              <CardText>
+                Three simple ways to take your digital product to the next level.
+                {" "}
+              </CardText>
+              <CardActions border>
+                <a  
+                href="https://maxclayton07.medium.com/doctors-hate-him-for-these-three-simple-web-design-tricks-30aeed165eef"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button colored>Read</Button>
+                </a>
+              </CardActions>
+              
+            </FadeIn>
+            
+          </Card>
+          </div>
+        
+          {/* Next Project*/}
+          </div>
+     
         </div>
       );
     }

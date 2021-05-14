@@ -219,16 +219,15 @@ body {
   }
 
   .first-project.first-project {
-    height: 150vh;
+    height: 200vh;
     width: 100%;
     color: white;
-    flex-wrap: wrap;
     flex-direction: column-reverse;
   }
+
+ 
   
-  .first-project-text.first-proj-text {
-    padding-bottom: 20%;
-  }
+
 
   
   
@@ -237,7 +236,7 @@ body {
     margin-right: 0px;
    width: 100%;
     position:absolute;
-    padding-bottom: 510px;
+    padding-bottom: 600px;
     text-align: center;
   }
 
@@ -245,7 +244,7 @@ body {
     font-size: 75px;
     width: 100%;
     text-align: center;
-    padding-bottom: 20%;
+    padding-bottom: 55px;
   }
 
   .first-proj-text.first-proj-text p {
@@ -260,6 +259,7 @@ body {
   .cake-demo.cake-demo {
     height: 410px;
     margin-right: 0;
+    padding-bottom: 50px;
   }
 
   .first-project-desc.first-project-desc {
@@ -271,12 +271,14 @@ body {
   
   }
 
+ 
+
   .cakes-text {
     width:100%;
   }
 
   .second-project-page.second-project-page {
-    height: 135vh;
+    height: 115vh;
     width: 100%;
     color: white;
     flex-wrap: wrap;
@@ -311,6 +313,7 @@ body {
   }
   .demo-demo.demo-demo {
     width: 100%;
+    padding-top: 75px;
   }
 
   .third-project-page.third-project-page {
@@ -327,7 +330,7 @@ body {
     color: white;
     text-align: center;
     width: 100%;
-    padding-bottom: 150px;
+    
   
   }
   
@@ -365,6 +368,14 @@ body {
     justify-content: space-evenly;
 
   }
+  .card-holder2.card-holder2 {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 0;
+
+  }
 
   .card-1 {
     padding-top: 30px;
@@ -375,6 +386,17 @@ body {
   }
 
   .card-3 {
+    padding-bottom: 30px;
+  }
+  .card-4 {
+
+    padding-bottom: 30px;
+  }
+  .card-5 {
+    padding-bottom: 30px;
+  }
+
+  .card-6 {
     padding-bottom: 30px;
   }
 }
@@ -587,6 +609,14 @@ body {
 .card-holder {
   flex-direction: row;
   display: flex;
+  padding-top: 40px;
   width: 100%;
   justify-content: space-evenly;
+}
+.card-holder2 {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 75px;
 }
