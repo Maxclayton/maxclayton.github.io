@@ -195,15 +195,15 @@ class Articles extends Component {
                   height: "176px",
                   backgroundColor: "white"                }}
               >
-                Doctors Hate Him for these Three Simple Web Design Tricks
+                Believe the Hype (4)
               </CardTitle>
               <CardText>
-                Three simple ways to take your digital product to the next level.
+                My learning process of Hype 4
                 {" "}
               </CardText>
               <CardActions border>
                 <a  
-                href="https://maxclayton07.medium.com/doctors-hate-him-for-these-three-simple-web-design-tricks-30aeed165eef"
+                href="https://maxclayton07.medium.com/believe-the-hype-4-fd5ff32804ff"
                 rel="noopener noreferrer"
                 target="_blank"
               >

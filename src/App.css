@@ -116,7 +116,7 @@ body {
 
 /* resume Page Css*/
 .resume-right-col {
-  background: #27221f;
+  background: black;
   color: white;
   padding: 2em;
 }
@@ -219,7 +219,7 @@ body {
   }
 
   .first-project.first-project {
-    height: 200vh;
+    height: 160vh;
     width: 100%;
     color: white;
     flex-direction: column-reverse;
@@ -259,7 +259,7 @@ body {
   .cake-demo.cake-demo {
     height: 410px;
     margin-right: 0;
-    padding-bottom: 50px;
+
   }
 
   .first-project-desc.first-project-desc {
@@ -278,7 +278,15 @@ body {
   }
 
   .second-project-page.second-project-page {
-    height: 115vh;
+    height: 160vh;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+
+  }
+
+  .fourth-project-page.fourth-project-page {
+    height: 100vh;
     width: 100%;
     color: white;
     flex-wrap: wrap;
@@ -296,7 +304,7 @@ body {
     font-size: 75px;
     width: 100%;
     text-align: center;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
   }
   
   .second-proj-text.second-proj p {
@@ -308,16 +316,22 @@ body {
   }
 
   .second-proj-demo.second-proj-demo {
-    height: 690px;
-
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
   }
   .demo-demo.demo-demo {
     width: 100%;
     padding-top: 75px;
   }
+  .portdemo.portdemo {
+    width: 100%;
+    padding-top: 75px;
+  }
 
   .third-project-page.third-project-page {
-    height: 135vh;
+    height: 115vh;
     width: 100%;
     color: white;
     flex-wrap: wrap;
@@ -534,10 +548,22 @@ body {
   display: flex;
 }
 
+.fourth-project-page {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+
+.second-proj-demo {
+  margin: 55px;
+}
+
 .second-proj-text {
   padding-top: 90px;
   margin-left: 70px;
   color: black;
+  margin-top: 55px;
 }
 
 .second-proj-text h1 {
@@ -578,6 +604,7 @@ body {
   padding-top: 20px;
 }
 
+
 .articles-text{
   width: 100%;
   text-align: center;
@@ -592,12 +619,22 @@ body {
 .cake-demo {
   height: 700px;
   margin-right: 100px;
+  padding-top: 30px;
+
 }
 
 .demo-demo {
     height: 300px;
     margin-right: 80px;
     padding-top: 175px;
+    padding-bottom: 75px;
+}
+
+.portdemo{
+  height: 300px;
+  margin-right: 80px;
+  padding-top: 175px;
+  padding-bottom: 75px;
 }
 
 .third-proj-demo {
@@ -619,4 +656,5 @@ body {
   width: 100%;
   justify-content: space-evenly;
   padding-top: 75px;
+  padding-bottom: 30px;
 }
